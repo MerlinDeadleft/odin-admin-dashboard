@@ -17,13 +17,13 @@ body {
 }
 
 .sidebar {
-    border: 2px solid black;
     grid-row: span 2;
     height: 100vh;
     display: grid;
     grid-template-rows: 10% 1fr 1.7fr;
     color: white;
     background-color: #1992d4;
+    box-shadow: -2px 0 10px #505050;
 }
 
 .sidebar ul {
