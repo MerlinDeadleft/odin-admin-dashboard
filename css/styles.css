@@ -55,4 +55,38 @@ header {
 }
 
 main {
+    display: grid;
+    grid-template: repeat(2, 50%) / 3fr 1fr;
+    gap: 2%;
+    background-color: #e2e8f0;
+    padding: 20px;
+    font-size: 0.75rem;
+}
+
+.project-container {
+    grid-row: span 2;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+.project-card-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(40%, 1fr));
+    gap: 30px;
+}
+
+.project-card {
+    background-color: white;
+    border-radius: 10px;
+    padding: 5% 5% 10%;
+}
+
+.project-card p {
+    font-size: 0.75rem;
+}
+
+.trending-container {
+    grid-column-start: 2;
 }
