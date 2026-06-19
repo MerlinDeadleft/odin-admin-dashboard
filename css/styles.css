@@ -101,7 +101,24 @@ h2 {
     align-self: end;
     display: flex;
     justify-content: flex-end;
-    gap: 20px;
+    gap: 30px;
+}
+
+.project-card-button {
+    background-color: transparent;
+    border: unset;
+    font-size: 1.5em;
+    width: 1.5em;
+    height: 1.5em;
+    border-radius: 10px;
+}
+
+.project-card-button:hover {
+    cursor: pointer;
+}
+
+.project-card-button:active {
+    background-color: #e0e0e0;
 }
 
 .announcement-card,
@@ -151,6 +168,15 @@ h2 {
     fill: white;
 }
 
+.gray {
+    fill: #333333;
+}
+
 .sidebar li .icon {
     margin: 0 5px;
+}
+
+.project-card-button .icon {
+    top: 2px;
+    left: -1px;
 }
