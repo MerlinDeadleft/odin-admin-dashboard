@@ -18,7 +18,7 @@
 
 body {
     display: grid;
-    grid-template: 17.5% 1fr / 15% 1fr;
+    grid-template: 17.5% 1fr / max(355px, 15%) 1fr;
 }
 
 .sidebar {
@@ -29,6 +29,7 @@ body {
     color: white;
     background-color: #1992d4;
     box-shadow: -2px 0 10px #505050;
+    padding: 0 15px;
 }
 
 .sidebar ul {
@@ -148,4 +149,8 @@ h2 {
 
 .white {
     fill: white;
+}
+
+.sidebar li .icon {
+    margin: 0 5px;
 }
