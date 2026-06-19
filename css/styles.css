@@ -1,3 +1,14 @@
+@font-face {
+    font-family: Roboto;
+    src: url(../resources/fonts/Roboto.ttf);
+}
+
+/* @font-face {
+        font-family: Roboto;
+    src: url(../resources/fonts/Roboto-Medium.ttf);
+    font-weight: 500 600;
+} */
+
 *,
 *::before,
 *::after {
@@ -7,7 +18,7 @@
 }
 
 :root {
-    font-family: sans-serif;
+    font-family: Roboto, sans-serif;
     font-size: 24px;
 }
 
@@ -35,6 +46,7 @@ body {
 
 .sidebar li {
     align-content: center;
+    font-weight: 450;
 }
 
 header {
