@@ -56,7 +56,7 @@ header {
 
 main {
     display: grid;
-    grid-template: repeat(2, 50%) / 3fr 1fr;
+    grid-template: repeat(2, minmax(min-content, 50%)) / 3fr 1fr;
     gap: 2%;
     background-color: #e2e8f0;
     padding: 20px;
@@ -86,6 +86,7 @@ h2 {
 
 .project-card p {
     font-size: 0.75rem;
+    color: gray;
 }
 
 .project-card-button-container {
@@ -94,6 +95,25 @@ h2 {
     display: flex;
     justify-content: flex-end;
     gap: 20px;
+}
+
+.announcement-card {
+    background-color: white;
+    padding: max(25px, min(40px, 15%));
+    border-radius: 10px;
+}
+
+.announcement-card hr {
+    margin: 15px 0;
+}
+
+.announcement h3 {
+    font-size: 0.75rem;
+}
+
+.announcement p {
+    font-size: 0.65rem;
+    color: gray;
 }
 
 .trending-container {
