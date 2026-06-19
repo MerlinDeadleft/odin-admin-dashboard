@@ -97,7 +97,8 @@ h2 {
     gap: 20px;
 }
 
-.announcement-card {
+.announcement-card,
+.trending-card {
     background-color: white;
     padding: max(25px, min(40px, 15%));
     border-radius: 10px;
@@ -116,6 +117,14 @@ h2 {
     color: gray;
 }
 
-.trending-container {
-    grid-column-start: 2;
+.trending {
+    margin-top: 15px;
+}
+
+.trending:first-of-type {
+    margin-top: 0px;
+}
+
+.trending p:last-of-type {
+    color: gray;
 }
