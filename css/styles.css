@@ -14,6 +14,10 @@
 :root {
     font-family: Roboto, sans-serif;
     font-size: 24px;
+
+    --main-color: #1992d4;
+    --main-color-hover: hsl(201, 79%, 53%);
+    --main-color-active: hsl(201, 79%, 40%);
 }
 
 body {
@@ -28,7 +32,7 @@ body {
     grid-template-rows: repeat(3, min-content);
     gap: 20px;
     color: white;
-    background-color: #1992d4;
+    background-color: var(--main-color);
     box-shadow: -2px 0 10px #505050;
     padding: 0 15px;
     position: sticky;
@@ -65,12 +69,53 @@ header {
     clip-path: inset(-10px -10px -10px 0);
 }
 
+.search-container {
+    display: grid;
+    grid-template-columns: min-content 1fr;
+}
+
+#search-bar {
+    font-size: 1rem;
+    border: none;
+    border-radius: 1.2rem;
+    padding: 5px 15px;
+    background-color: #e2e8f0;
+}
+
+#search-bar:focus {
+    outline: 2px solid var(--main-color);
+}
+
 .user-info {
     text-align: center;
 }
 
 .header-button-container {
     text-align: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    padding: 0 15px;
+    justify-self: center;
+}
+
+.header-button {
+    background-color: var(--main-color);
+    color: white;
+    font-size: 0.75rem;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 20px;
+    width: 135px;
+}
+
+.header-button:hover {
+    cursor: pointer;
+    background-color: var(--main-color-hover);
+}
+
+.header-button:active {
+    background-color: var(--main-color-active);
 }
 
 main {
