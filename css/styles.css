@@ -34,13 +34,13 @@ body {
     color: white;
     background-color: var(--main-color);
     box-shadow: -2px 0 10px #505050;
-    padding: 0 15px;
     position: sticky;
     top: 0px;
 }
 
 .logo-container {
     min-height: 110px;
+    padding: 0 15px;
 }
 
 .nav {
@@ -55,9 +55,19 @@ body {
 }
 
 .sidebar li {
+    padding: 0 15px;
     align-content: center;
     font-weight: 450;
     min-height: 60px;
+}
+
+.sidebar li:hover {
+    cursor: pointer;
+    background-color: var(--main-color-hover);
+}
+
+.sidebar li:active {
+    background-color: var(--main-color-active);
 }
 
 header {
@@ -93,6 +103,11 @@ header {
     align-items: center;
     justify-items: center;
     justify-self: center;
+}
+
+.user-info span:hover {
+    cursor: pointer;
+    text-decoration: underline;
 }
 
 .welcome-message {
@@ -176,6 +191,11 @@ h2 {
     min-width: min-content;
 }
 
+.project-card h3:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
 .project-card p {
     font-size: 0.75rem;
     color: gray;
@@ -251,6 +271,11 @@ h2 {
     color: gray;
 }
 
+.trending p:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
 .icon {
     height: 1.2em;
     position: relative;
@@ -278,6 +303,10 @@ h2 {
     top: 0;
 }
 
+#notifications:hover {
+    cursor: pointer;
+}
+
 .project-card-button .icon {
     top: 2px;
     left: -1px;
@@ -287,4 +316,8 @@ h2 {
     height: 2.5rem;
     border-radius: 50%;
     vertical-align: middle;
+}
+
+.profile-image:hover {
+    cursor: pointer;
 }
