@@ -241,6 +241,11 @@ h2 {
     font-size: 0.75rem;
 }
 
+.announcement h3:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
 .announcement p {
     font-size: 0.65rem;
     color: gray;
