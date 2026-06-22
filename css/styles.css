@@ -90,15 +90,16 @@ h2 {
 
 .project-card-container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(40%, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(47%, 1fr));
     gap: 30px;
 }
 
 .project-card {
     background: linear-gradient(90deg, #f0b429 10px, white 10px);
     border-radius: 10px;
-    padding: 5% 5% 5%;
+    padding: 5% 5% 5% max(5%, 15px);
     display: grid;
+    min-width: min-content;
 }
 
 .project-card p {
