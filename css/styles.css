@@ -25,16 +25,18 @@ body {
     grid-row: span 2;
     min-height: 100vh;
     display: grid;
-    grid-template-rows: minmax(min-content, 10%) minmax(min-content, 1fr) minmax(min-content, 1.7fr);
+    grid-template-rows: repeat(3, min-content);
     gap: 20px;
     color: white;
     background-color: #1992d4;
     box-shadow: -2px 0 10px #505050;
     padding: 0 15px;
+    position: sticky;
+    top: 0px;
 }
 
 .logo-container {
-    min-height: 84px;
+    min-height: 110px;
 }
 
 .nav {
