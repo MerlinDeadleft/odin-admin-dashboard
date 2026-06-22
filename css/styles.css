@@ -18,7 +18,7 @@
 
 body {
     display: grid;
-    grid-template: 17.5% 1fr / max(355px, 15%) 1fr;
+    grid-template: 200px 1fr / max(355px, 15%) 1fr;
 }
 
 .sidebar {
