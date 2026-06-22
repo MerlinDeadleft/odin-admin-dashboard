@@ -227,7 +227,20 @@ h2 {
 }
 
 .trending {
-    margin-top: 15px;
+    margin-top: 20px;
+    justify-self: start;
+    display: grid;
+    grid-template-rows: 1fr 1fr / min-content 1fr;
+    column-gap: 10px;
+    align-items: center;    
+}
+
+.trending .profile-image {
+    grid-row: span 2;
+}
+
+.trending p {
+    grid-column-start: 2;
 }
 
 .trending:first-of-type {
