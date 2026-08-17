@@ -1,11 +1,23 @@
-# odin-admin-dashboard
+# Admin Dashboard UI
 
-Seventh project (second on the node path) of [The Odin Project](https://www.theodinproject.com/) with the goal of applying everything learned in the lessons on CSS Grids.
-[Link to project instructions](https://www.theodinproject.com/lessons/node-path-intermediate-html-and-css-admin-dashboard)
+**[View Live Demo](https://merlindeadleft.github.io/odin-admin-dashboard/)**
 
-The finished project will show a page looking like an admin dashboard.
+<br>
 
-Attributions:
+<img src="./Screenshot/Screenshot.png" width=1000>
+
+<br>
+
+A responsive admin dashboard interface built entirely with pure HTML and CSS. This project demonstrates proficiency in modern web layout techniques, specifically focusing on complex CSS Grids and Flexbox.<br>
+Built as part of [The Odin Project](https://www.theodinproject.com/) curriculum to solidify frontend styling and UI/UX implementation without the use of external CSS frameworks. (Seventh project, second on the node path [Link to project instructions](https://www.theodinproject.com/lessons/node-path-intermediate-html-and-css-admin-dashboard))
+
+## Technologies Used
+
+- HTML5 (semantic markup)
+- CSS3 (CSS Grids, Flexbox, Custom Variables)
+- Responsive Web Design principles
+
+## Attributions
 
 Icons used from [Pictogrammers'](https://pictogrammers.com/) Material Design Icons library.
 
